@@ -7,42 +7,42 @@ class allsongs extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        iconTheme: IconThemeData(color: Colors.black),
-        backgroundColor: Colors.white,
+        iconTheme: IconThemeData(color: Colors.white),
+        backgroundColor: Colors.red,
         title: Center(
             child: Padding(
           padding: const EdgeInsets.all(15.0),
           child: Text(
             "All Tracks",
-            style: TextStyle(color: Colors.pink[400]),
+            style: TextStyle(color: Colors.white),
           ),
         )),
       ),
       body: Container(
         height: 730,
-        decoration: BoxDecoration(color: Colors.white),
+        decoration: BoxDecoration(color: Colors.black),
         child: ListView(
           scrollDirection: Axis.vertical,
           children: [
             Container(
               height: 55,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: Text(
                   "Playlist",
                   style: TextStyle(
                       fontSize: 22,
-                      color: Colors.pink[400],
+                      color: Colors.red,
                       fontWeight: FontWeight.bold),
                 ),
               ),
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -54,7 +54,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.pink[400],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -62,19 +62,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.pink[500], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
-                              style: TextStyle(
-                                  color: Colors.pink[800], fontSize: 19),
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
@@ -86,9 +81,9 @@ class allsongs extends StatelessWidget {
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -100,7 +95,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.purple[800],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -108,19 +103,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.purple[800], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 19),
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
@@ -132,9 +122,9 @@ class allsongs extends StatelessWidget {
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -146,7 +136,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.purple[800],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -154,19 +144,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.purple[800], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 19),
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
@@ -178,9 +163,9 @@ class allsongs extends StatelessWidget {
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -192,7 +177,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.purple[800],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -200,19 +185,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.purple[800], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 19),
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
@@ -224,9 +204,9 @@ class allsongs extends StatelessWidget {
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -238,7 +218,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.purple[800],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -246,19 +226,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.purple[800], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 19),
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
@@ -270,9 +245,9 @@ class allsongs extends StatelessWidget {
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -284,7 +259,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.purple[800],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -292,19 +267,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.purple[800], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 19),
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
@@ -316,9 +286,9 @@ class allsongs extends StatelessWidget {
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -330,7 +300,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.purple[800],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -338,19 +308,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.purple[800], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 19),
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
@@ -362,9 +327,9 @@ class allsongs extends StatelessWidget {
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -376,7 +341,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.purple[800],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -384,19 +349,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.purple[800], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 19),
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
@@ -408,9 +368,9 @@ class allsongs extends StatelessWidget {
             ),
             Container(
               height: 95,
-              decoration: BoxDecoration(color: Colors.white),
+              decoration: BoxDecoration(color: Colors.black),
               child: Card(
-                color: Colors.grey[100],
+                color: Colors.grey[900],
                 margin:
                     EdgeInsets.only(right: 15, left: 15, top: 10, bottom: 8),
                 elevation: 3,
@@ -422,7 +382,7 @@ class allsongs extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Icon(
                           Icons.queue_music_outlined,
-                          color: Colors.purple[800],
+                          color: Colors.white,
                         )),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -430,19 +390,14 @@ class allsongs extends StatelessWidget {
                         children: [
                           Text(
                             "Khamoshi - ",
-                            style: TextStyle(
-                                color: Colors.purple[800], fontSize: 22),
+                            style: TextStyle(color: Colors.white, fontSize: 22),
                           ),
-                          // Padding(
-                          //   padding: const EdgeInsets.all(4.0),
-                          //   child: Text(" By "),
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(4.0),
                             child: Text(
                               "Bilal Khan",
                               style:
-                                  TextStyle(color: Colors.black, fontSize: 19),
+                                  TextStyle(color: Colors.white, fontSize: 19),
                             ),
                           ),
                         ],
